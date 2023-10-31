@@ -73,17 +73,25 @@ a:not([href]):not([class]):hover {
 }
 h1 {
   margin-bottom: 0.5rem;
+  font-family: 'Lazer84';
 }
-.lead {
-  font-size: 1.25rem;
+@font-face {
+  font-family: 'Lazer84';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/titel.woff") format("woff");
 }
+
 .lead {
+  font-size: 1rem;
   font-weight: 300;
 }
 .display-1 {
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 900;
+  line-height: 0.8;
 }
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -463,16 +471,16 @@ body {
   top: 2000px;
 }
 .display-1 {
-  font-size: 4.2375rem;
+  font-size: 3.5rem;
 }
 @media (min-width: 576px) {
   .display-1 {
-      font-size: 4.96677rem;
+      font-size: 3.5rem;
   }
 }
 @media (min-width: 768px) {
   .display-1 {
-      font-size: 6.02782rem;
+      font-size: 3.5rem;
   }
 }
 @keyframes animation-16jpnkj {
