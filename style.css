@@ -89,7 +89,7 @@ h1 {
 }
 .display-1 {
   font-weight: 900;
-  line-height: 0.8;
+  line-height: 2.0;
 }
 
 .container {
@@ -501,4 +501,10 @@ body {
 }
 .sf-hidden {
   display: none !important;
+}
+
+.avatar img {
+  width: 15rem;
+  height: auto;
+  border-radius:50%
 }
