@@ -1,0 +1,3 @@
+# Tutorials und Hilfestellung  
+zur Integration [pixoo-homeassistant](https://github.com/gickowtf/pixoo-homeassistant)
+
